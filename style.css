@@ -14,19 +14,19 @@
   display: flex;
   background-color: #1F2937;
   padding: 5% 10%;
-  gap: 1%;
+  justify-content: center;
 }
 .hook {
   display:flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  flex-basis: 50%
+  flex-basis: 40%;
 }
 
 .hook h1 {
   color: #F9FAF8;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bold;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -39,7 +39,6 @@
   background-color: #3882F6;
   color: #E5E7EB;
   min-width: 20%;
-  align-self: flex-start;
   border-radius: 4px;
   padding: 4px;
   border: none;
@@ -50,13 +49,45 @@
   align-items: center;
   justify-content: center;
   background-color: black;
-  flex-basis: 50%
+  flex-basis: 40%;
 }
 
 .nav-links {
   display:flex;
   list-style-type: none;
   gap: 16px;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  padding: 8px 10% 10% 10%;
+}
+
+.information h2 {
+  margin: 16px 0px 8px 0px;
+  font-size: 36px;
+  flex-basis: 100%;
+  text-align: center;
+  color: #1F2937;
+  
+}
+
+.info-container {
+  display:flex;
+  flex-direction: column;
+  flex-basis: 15%;
+}
+.info-container p {
+  color: #1F2937;
+}
+
+.image-box {
+  min-height: 128px;
+  border: solid #3882F6 3px;
+  border-radius: 10%;
 }
 
 body {
