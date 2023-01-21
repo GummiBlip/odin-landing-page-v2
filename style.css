@@ -38,7 +38,8 @@
 .signup {
   background-color: #3882F6;
   color: #E5E7EB;
-  min-width: 20%;
+  min-height: 32px;
+  min-width: 96px;
   border-radius: 4px;
   padding: 4px;
   border: none;
@@ -73,20 +74,22 @@
   text-align: center;
   color: #1F2937;
   
+  
 }
 
 .info-container {
   display:flex;
   flex-direction: column;
-  flex-basis: 15%;
+  flex-basis: 12%;
+  margin: 0 12px;
 }
 .info-container p {
   color: #1F2937;
 }
 
 .image-box {
-  min-height: 128px;
-  border: solid #3882F6 3px;
+  min-height: 160px;
+  border: solid #3882F6 4px;
   border-radius: 10%;
 }
 
