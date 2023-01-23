@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 .hero {
   display: flex;
   background-color: #1F2937;
@@ -148,6 +150,7 @@
 
 body {
   margin: 0;
+  font-family:"Roboto", Arial, sans-serif;
 }
 
 header {
@@ -160,6 +163,18 @@ header h2 {
   font-size: 24px;
   color:#F9FAF8;
   margin: 8px 0 0 0;
+}
+
+footer {
+  background-color: #1F2937;
+  min-height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
 }
 
 p, ul{
